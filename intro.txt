@@ -1,0 +1,35 @@
+# link to a blank excel canvas
+# webscrap the AI stocks 
+# seperate the AI stocks into their different categories
+# create an etf based on their news flows, 
+
+# Before you start do the following:
+
+Step 1: Set Up the virtual environment 
+source .venv/bin/activate  # For macOS and Linux
+.venv\Scripts\activate  # For Windows
+
+Step 2: Install necessary libraries
+pip install spacy
+python -m spacy download en_core_web_sm
+pip install requests beautifulsoup4 pandas yfinance openpyxl
+
+ETF Lists:
+
+1. IGPT - Invesco AI and Next Gen Software ETF (have an excel in the link below)
+link: https://www.invesco.com/us/financial-products/etfs/holdings?audienceType=Investor&ticker=IGPT
+
+2. AIQ - Artificial Intelligence & Technology ETF (have a csv in the link below) Note: Ignore those without tickers
+https://www.globalxetfs.com/funds/aiq/
+
+3. BOTZ - Robotics & Artificial Intelligence ETF (have a csv in the link below) Note: Ignore those without tickers
+https://www.globalxetfs.com/funds/botz/
+
+4. Roundhill Generative AI & Technology ETF (have to go holdings -> view all)
+https://www.etf.com/CHAT
+
+5. First Trust Nasdaq Artificial Intelligence and Robotics ETF (ROBT) (ignore currencies)
+https://www.ftportfolios.com/Retail/Etf/EtfHoldings.aspx?Ticker=ROBT
+
+6. iShares Robotics and Artificial Intelligence Multisector ETF
+https://stockanalysis.com/etf/irbo/holdings/
